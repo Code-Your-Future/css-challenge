@@ -109,14 +109,7 @@ Also we will go into the DOM and file structure. There will be time spent on why
 ## Homework
 
 ### Assignment:
- * Make a website that contains:
-    * A responsive grid made with flex-box
-    * A responsive grid made with CSS3 columns
-    * A responsive grid made with float left
-    * An animation using CSS keyframes
-    * Optional: use a SVG
-    * BEFORE you hand it in, read the Style guide again and check your files
-
+Apply your know learnings and build a [blog page](assignemnt_blog.md)
 
 ### Exercises: 
  * <a href="https://www.sololearn.com/Course/JavaScript/">Intro Javascript </a> 
