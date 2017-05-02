@@ -18,7 +18,7 @@ a:hover{
     border-bottom: 1px solid #EA2E49;
 }
 h3{
-    font-size: 40px;
+    font-size: 200%;
     padding: 20px 0;
     font-weight: normal;
 }
@@ -29,11 +29,10 @@ div{
     background: #77C4D3;
     margin: 60px;
     padding: 50px;
-    height: 3120px;
+    height: 3140px;
 }
-
-
 /*=============introduction section=============*/
+
 .intro header h1,
 .intro header h2{
     color: #fff;
@@ -50,7 +49,7 @@ div{
 }
 .intro header h2{
     font-size: 121px;
-    width:640px;
+    width:100%;
     font-weight: 1000;
     font-family: 'Lato', sans-serif;
     letter-spacing: -5px;
@@ -61,11 +60,11 @@ div{
 #zen-summary{
     padding: 100px 0;
     text-transform: uppercase;
-    width:640px;
+    width:85%;
     font-size: 18px;
 }
 #zen-summary p:first-child{
-    border-bottom: 2px solid #FF0000;
+    border-bottom: 1px solid #FF0000;
     padding-bottom: 25px;
     letter-spacing: 2px;
 }
@@ -83,29 +82,30 @@ footer{
 #zen-preamble{
     background: #FBFDFC;
     color: #333333;
-    width: 750px;
-    padding: 40px 50px 40px 130px;
+    width: 70%;
+    padding: 40px 70px 40px 180px;
     line-height: 16px;
     left: -120px;
 }
 #zen-preamble p{
     padding: 10px 0;
     line-height: 25px;
-    font-size: 18px;
+    font-size: 110%;
+    letter-spacing: .5px;
 }
 #zen-explanation{
-    width: 450px;
+    width: 40%;
     padding-left: 30px;
-    top: 500px;
+    top: 600px;
     left: 20px;
 }
 #zen-participation{
     background: #DF3C57;
     opacity: .9;
-    width: 500px;
+    width: 50%;
     padding: 5%;
     right: 25px;
-    top:490px;
+    top:550px;
     z-index: 1;
 }
 #zen-participation a:hover{
@@ -117,30 +117,32 @@ footer{
 #zen-requirements p{
     padding: 10px 0;
     line-height: 25px;
-    font-size: 18px;
+    font-size: 110%;
+    letter-spacing: .5px;
 }
 #zen-benefits{
     background: #F2F9FB;
-    width: 330px;
+    width: 30%;
     color: #000;
-    padding: 60px 75px;
-    top:1290px;
-    left: 30px;
+    padding: 50px 55px;
+    top:1330px;
+    left: 13px;
+    z-index: 2;
 }
 #zen-requirements{
     background: #F2F9FB;
     opacity: .95;
-    width: 700px;
+    width: 66.5%;
     color: #000;
-    top: 1160px;
+    top: 1215px;
     padding: 5%;
-    right: 0px;
+    right: 25px;
     z-index: 1;
     line-height: 50px;
     letter-spacing: 1px;
 }
 #zen-requirements p:last-child{
-    border-top: 2px solid #FF0000;
+    border-top: 1px solid #FF0000;
     text-transform: uppercase;
     margin-top: 10px;
     padding: 20px 0;
@@ -148,9 +150,9 @@ footer{
 }
 footer{
     background: #E4E68C;
-    width: 550px;
+    width: 540px;
     padding: 25px 40px;
-    top: 2060px;
+    top: 2092px;
     color: #000;
     left: 30px;
 }
@@ -161,8 +163,8 @@ footer a{
 /*=============sidebar section=============*/
 aside.sidebar{
     position: absolute;
-    width:400px;
-    padding: 60px;
+    width:33.5%;
+    padding: 65px;
     background: #E4E68C;
     opacity: .9;
     top: 80px;
@@ -188,18 +190,28 @@ aside.sidebar a {
 }
 .extra1{
     background: rgba(51,55,69,0.9);
-    width: 400px;
+    width: 30%;
     height: 100%;
     position: fixed;
     bottom: 0px;
     right: 0px;
     
 }
-
+.intro{
+    width: 66.5%;
+}
+.main{
+    width: 100%;
+}
+.sidebar{
+    width: 33.5%;
+}
 @media screen and (max-width:1262px) {
+/*
     .extra1{
         display: none;
     }
+*/
 }
 @media screen and (max-width:825px) {
     h3{
