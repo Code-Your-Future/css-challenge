@@ -23,6 +23,8 @@ a{
     padding: 10px;
     font-weight: 100;
 }
+
+/*============introduction section===================*/
 #zen-intro header{
     background-image: url(resource_for_style_2/gridlines.png), url("resource_for_style_2/contours-opaque.png"),url("resource_for_style_2/huntington.jpg");
     background-position: left top;
@@ -57,10 +59,6 @@ header h2{
 }
 header :after{
     clear: both;
-}
-#zen-supporting{
-    position: absolute;
-    z-index: 2;
 }
 #zen-summary,
 #zen-preamble,
@@ -99,11 +97,17 @@ header :after{
     margin-right: 5px;
     border-radius: 2px;
 }
+
+/*============supporting section===================*/
 #zen-participation,
 #zen-benefits{
     widows: 100%;
     padding: 2% 40% 0 10%;
     background: #C3DBCD;
+}
+#zen-benefits{
+    padding-bottom: 5%;
+    padding-top: 2%;
 }
 #zen-participation,
 #zen-benefits{
@@ -135,6 +139,9 @@ header :after{
 #zen-requirements p:last-child a{
     color: #D1DADC;
     font-style: normal;
+}
+#zen-requirements p:last-child a:hover{
+    text-decoration: underline;
 }
 footer{
     background: #134347;
@@ -207,39 +214,70 @@ footer a:hover:before{
     from {background-color: #134347;}
     to {background-color: #5A7C7F;}
 }
+
+/*============aside/sidebar section===================*/
 aside.sidebar{
     width: 34%;
-    height:2558px;
     position: absolute;
     top: 42%;
     right: 0px;
-    background: #E5EDE8;
 }
 aside.sidebar ul{
     list-style: none;
-    margin: 6% 10%;
-    padding: 5% 10%;
+    padding: 2% 10%;
 }
 aside.sidebar h3{
     display: none;
 }
+#design-selection{
+    background: #E5EDE8;
+    padding-bottom: 12%;
+    
+}
+#zen-resources{
+    height: 100%;
+}
 #design-selection ul li,
 #zen-resources ul li{
-    line-height: 25px;
+    line-height: 20px;
     color: #C0CAC3; 
     font-style: italic;    
     border-width: 50%;
     border-bottom: 1px solid #C0CAC3;
     padding: 10% 0;
 }
-#design-selection ul li:last-child,
-#zen-resources ul li:last-child{
+#design-selection ul li:last-child{
     border-bottom: none;
 }
-aside.sidebar li a {
+#zen-resources{
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    height: 88.5%;
+    width: 100%;
+}
+#zen-resources ul{
+
+}
+#zen-resources ul li:first-child{
+    border-top: 1px solid #C0CAC3;
+    margin-top: 20%;
+}
+aside.sidebar li a{
     color: #607476;
     font-style: normal;
     padding: 0;
+}
+aside.sidebar li a:hover{
+    color:#0d8ba1;
+}
+#zen-resources:after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    height: 100.5%;
+    background: #E5EDE8;
+    z-index: 3
 }
 aside.sidebar a.design-name,
 #zen-resources{
@@ -250,11 +288,10 @@ aside.sidebar a.design-name,
 
 aside.sidebar #design-archives{
     position: absolute;
-    top: -12%;
-    bottom: 0px;
+    top: -33%;
     width: 100%;
-    height: 12%;
-    padding: 10%;
+    height: 33%;
+    padding: 1%;
     background: rgba(0,0,0,0.1);
 }
 
@@ -271,6 +308,7 @@ aside.sidebar #design-archives ul li a{
     background: rgba(255,255,255,.2);
     position: absolute;
     top: 40%;
+    
 }
 aside.sidebar #design-archives ul li.next a{
     visibility: hidden;
@@ -282,7 +320,7 @@ aside.sidebar #design-archives ul li.next a:after{
     position: absolute;
     color: #FFF;
     visibility: visible;
-    right: -61px;
+    right: -115px;
     top: 0;
     padding: 0 8%;
     background: rgba(255,255,255,.2);
