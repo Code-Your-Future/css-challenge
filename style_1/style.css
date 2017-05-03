@@ -1,0 +1,234 @@
+/*============general===================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #D0ECE7;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+a:hover{
+    border-bottom: 1px solid #EA2E49;
+}
+h3{
+    font-size: 200%;
+    padding: 20px 0;
+    font-weight: normal;
+}
+div{
+    position: relative;
+}
+.page-wrapper{
+    background: #77C4D3;
+    margin: 60px;
+    padding: 50px;
+    height: 3140px;
+}
+/*=============introduction section=============*/
+
+.intro header h1,
+.intro header h2{
+    color: #fff;
+}
+.intro header h1{
+    background: #EA2E49;
+    width: 280px;
+    letter-spacing: 2px;
+    font-size: 26px;
+    padding: 18px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.intro header h2{
+    font-size: 121px;
+    width:100%;
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -5px;
+    margin-top: 40px;
+}
+
+/*==========main section=============*/
+#zen-summary{
+    padding: 100px 0;
+    text-transform: uppercase;
+    width:85%;
+    font-size: 18px;
+}
+#zen-summary p:first-child{
+    border-bottom: 1px solid #FF0000;
+    padding-bottom: 25px;
+    letter-spacing: 2px;
+}
+#zen-summary p:nth-of-type(2){
+    padding: 25px;
+}
+#zen-preamble,
+#zen-explanation,
+#zen-participation,
+#zen-benefits,
+#zen-requirements,
+footer{
+    position: absolute;
+}
+#zen-preamble{
+    background: #FBFDFC;
+    color: #333333;
+    width: 70%;
+    padding: 40px 70px 40px 180px;
+    line-height: 16px;
+    left: -120px;
+}
+#zen-preamble p{
+    padding: 10px 0;
+    line-height: 25px;
+    font-size: 110%;
+    letter-spacing: .5px;
+}
+#zen-explanation{
+    width: 40%;
+    padding-left: 30px;
+    top: 600px;
+    left: 20px;
+}
+#zen-participation{
+    background: #DF3C57;
+    opacity: .9;
+    width: 50%;
+    padding: 5%;
+    right: 25px;
+    top:550px;
+    z-index: 1;
+}
+#zen-participation a:hover{
+    border-bottom: 1px solid #fff;
+}
+#zen-participation p,
+#zen-explanation p,
+#zen-benefits p,
+#zen-requirements p{
+    padding: 10px 0;
+    line-height: 25px;
+    font-size: 110%;
+    letter-spacing: .5px;
+}
+#zen-benefits{
+    background: #F2F9FB;
+    width: 30%;
+    color: #000;
+    padding: 50px 55px;
+    top:1330px;
+    left: 13px;
+    z-index: 2;
+}
+#zen-requirements{
+    background: #F2F9FB;
+    opacity: .95;
+    width: 66.5%;
+    color: #000;
+    top: 1215px;
+    padding: 5%;
+    right: 25px;
+    z-index: 1;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+#zen-requirements p:last-child{
+    border-top: 1px solid #FF0000;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 20px 0;
+    letter-spacing: 2px;
+}
+footer{
+    background: #E4E68C;
+    width: 540px;
+    padding: 25px 40px;
+    top: 2092px;
+    color: #000;
+    left: 30px;
+}
+footer a{
+    margin: 0 10px 0 10px;
+}
+
+/*=============sidebar section=============*/
+aside.sidebar{
+    position: absolute;
+    width:33.5%;
+    padding: 65px;
+    background: #E4E68C;
+    opacity: .9;
+    top: 80px;
+    right: 0px;
+    z-index: 1;
+    color: #000;
+}
+aside.sidebar ul{
+    list-style: none;
+    font-size: 18px;
+    
+}
+aside.sidebar ul li{
+    padding: 10px;
+    line-height: 25px;
+    color: #A5A765;
+}
+aside.sidebar a {
+    color: #000;
+}
+#design-archives{
+    padding: 20px 0;
+}
+.extra1{
+    background: rgba(51,55,69,0.9);
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    
+}
+.intro{
+    width: 66.5%;
+}
+.main{
+    width: 100%;
+}
+.sidebar{
+    width: 33.5%;
+}
+@media screen and (max-width:1262px) {
+/*
+    .extra1{
+        display: none;
+    }
+*/
+}
+@media screen and (max-width:825px) {
+    h3{
+        font-size: 20px;
+    }
+    .intro header h1{
+        width: 250px;
+        height: 50px;
+        font-size: 22px;
+        padding: 12px 10px 5px 10px;
+    }
+    .intro header h2{
+        font-size: 121px;
+        width:340px;
+        font-weight: 1000;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: -5px;
+        margin-top: 40px;
+}
+}
