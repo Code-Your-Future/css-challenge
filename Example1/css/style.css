@@ -1,0 +1,225 @@
+/*Add your styles below*/
+
+body{
+    overflow-x: hidden;
+}
+
+p{
+    font-family: 'Libre Baskerville', serif;
+}
+
+header{
+    width: 110%;
+    height: 310px;
+    background-image: url('./images/huntington.jpeg');
+    position: relative;
+    top: -50px;
+    left: -10px;
+    
+}
+h1{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2.6em;
+    padding: 100px 0px 0px 200px;
+    color: white;
+
+}
+h2{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1em;
+    padding-left: 200px;
+    color: white;
+}
+.summary{
+    margin: 50px 500px 0 150px;
+    line-height: 2em;
+
+    
+}
+.summary a{
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 5px;
+    color:#809b7e;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .25s;
+
+}
+.summary a:hover{
+    color: white;
+    background-color:#0d8ba1;
+
+
+}
+h3:first-child{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+}
+.preamble{
+    margin: 50px 500px 0 150px;
+    line-height: 2em;
+}
+
+.explanation{
+    margin: 50px 500px 0 150px;
+    line-height: 2em;
+}
+
+.participation{
+    padding: 50px 500px 0 150px;
+    line-height: 2em;
+}
+
+.participation a{
+    color: #0d8ba1;
+    text-decoration: none;
+
+}
+
+.participation a:hover{
+    text-decoration:underline;
+}
+.benefits{
+    margin-top: -16px;
+    padding: 50px 500px 50px 150px;
+    line-height: 2em;
+}
+
+
+.benefits,.participation{
+    width: 100%;
+    background-attachment: fixed;
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(./images/bamboo.png);
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+.requirements{
+    margin: 50px 500px 0 150px;
+    line-height: 2em;
+}
+.requirements a{
+    color:#0d8ba1;
+    text-decoration: none;
+}
+.requirements a:hover{
+    text-decoration:underline;
+}
+
+.sidebar{
+    background-color: #edf4f0;
+    width:35%;
+    float: right;
+
+
+}
+.sidebar h3{
+    display: none;
+}
+
+.sidebar a{
+    color: #607476;
+    text-decoration: none;
+}
+
+.sidebar a:hover{
+    color: #49968e
+}
+.design-selection ul{
+    list-style-type: none;
+     position: absolute;
+    top: 320px;
+    
+}
+
+.design-selection li{
+    display:block;
+    padding: 30px 10px 30px 10px;
+    
+
+
+}
+.design-selection li a{
+    text-decoration: none;
+}
+.design-name ,.designer-name{
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    display:block;
+
+}
+
+
+
+.zen-resources ul{
+    list-style: none;
+    position: absolute;
+    top:1500px;
+}
+.zen-resources li {
+    font-size: 1.3em;
+    padding:30px;
+    border-top: solid 1px #d9e3dc;
+    color: #c0cac3;
+
+}
+
+.design-archives ul{
+    list-style: none;
+} 
+
+.viewall{
+    color: white;
+    width: 50%;
+    height: 30px;
+    padding: 30px;
+    position: absolute;
+    top:100px;
+    background-color: rgba(255,255,255,0.2);
+}
+ .design-archives li a{
+     color: white;
+     font-family: 'Julius Sans One', sans-serif;
+     font-size: 1.4em;
+     opacity: .85;
+     transition: all .25s;  
+ }
+  .design-archives li a:hover{
+      text-decoration: underline;
+      color: white;
+  }
+ .next{
+    display: none;
+}
+
+.requirements p:last-of-type{
+    float: none;
+    clear: both;
+    width: 150%;
+    height:200px;
+    background-image: url(./images/koi.jpeg);
+    background-size: cover;
+    font-size: 1.4em;
+    text-align: center;
+    color: white;
+
+}
+
+.requirements p:last-of-type a{
+    color:#49968e;
+}
+
+footer{
+    background: #134347;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
