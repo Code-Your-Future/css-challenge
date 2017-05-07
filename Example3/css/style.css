@@ -1,0 +1,272 @@
+body {
+    background-color: #DAEDE2;
+    overflow-x: hidden;
+}
+
+p {
+    font-family: 'Economica', sans-serif;
+}
+
+.page-wrapper {
+    width: 1000px;
+    height: 3200px;
+    background-color: #77C4D3;
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    margin-top: 100px;
+    padding: 50px 0px 10px 50px;
+}
+
+h1 {
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-family: 'Economica', sans-serif;
+    font-size: 2em;
+    margin: 50px 0px 0px 50px;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+h2 {
+    width: 80%; 
+    color: white;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 6em;
+    margin-top: -10px;
+    padding-left: 50px;
+}
+
+.summary {
+    padding-left: 50px;
+    margin-top: 0px;
+    font-size: 2em;
+}
+
+.summary a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid blue;
+    transition: all .3s ease-out;
+}
+
+.summary a:hover {
+    border-bottom: 1px solid red;
+}
+
+.summary p:last-of-type {
+    width: 500px;
+    border-top: 1px solid red;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.intro p {
+    width: 700px;
+}
+
+h3 {
+    font-family: 'Economica', sans-serif;
+    font-size: 3em;
+}
+
+.preamble {
+    width: 800px;
+    background-color: rgba(255, 255, 255, .9);
+    position: relative;
+    color: black;
+    left: -150px;
+    padding: 50px 0px 50px 100px;
+}
+
+.preamble p {
+    width: 70%;
+    font-size: 1.4em;
+}
+
+.explanation {
+    width: 40%;
+    padding-left: 100px;
+    float: left;
+}
+
+.explanation h3,.explanation p {
+    position: relative;
+    color: white;
+    top: 100px;
+    left: -50px;
+}
+
+.explanation p {
+    font-size: 1.4em;
+}
+
+.participation {
+    width: 45%;
+    background-color:rgba(255, 0, 0, .8);
+    position: relative;
+    float: right;
+    top: -450px;
+    right: -250px;
+    color: white;
+    margin-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    z-index: 2;
+}
+
+.participation p {
+    width: 80%;
+    font-size: 1.4em;
+    font-weight: 100;
+}
+
+.participation a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid blue;
+    transition: all .3s ease-out;
+}
+
+.participation a:hover {
+    border-bottom: 1px solid white;
+}
+
+.benefits {
+    width: 30%;
+    background-color: rgba(255, 255, 255, .8);
+    position: relative;
+    float: left;
+    color: black;
+    top: -350px;
+    left: 41px;
+    padding-bottom: 50px;
+    padding-left: 54px;
+}
+
+.benefits p {
+    font-size: 1.4em;
+    width: 80%;
+}
+
+.requirements {
+    width: 70%;
+    background-color: rgba(255, 255, 255, .8);
+    position: relative;
+    float: right;
+    color: black;
+    top: -880px;
+    right: -195px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    margin-left: -50px;
+    z-index: 1;
+}
+
+.requirements p {
+    width: 80%;
+    font-size: 1.4em;
+}
+
+.requirements a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid gray;
+    transition: all .3s ease-out;
+}
+
+.requirements a:hover {
+    border-bottom: 1px solid red;
+}
+
+.requirements p:last-child {
+    text-transform: uppercase;
+    border-top: 1px solid red;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.extra1 {
+    width: 30%;
+    background: rgba(51,55,69,0.9);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.sidebar {
+     width: 45%;
+     background-color: rgba(246,247,146,0.9);
+     position: relative;
+     float: right;
+     color: black;
+     top: -3850px;
+     right: -280px;
+     padding-left: 40px;
+     padding-bottom: 70px;
+     z-index: 2;
+}
+
+.sidebar ul {
+     width: 40%;
+     list-style: none;
+ }
+
+.sidebar li {
+    display: inline-block;
+    font-family: 'Economica', sans-serif;
+    font-size: 1.3em;
+    padding-left: 40px;
+}
+
+.sidebar li a {
+    width: 80%;
+    color: black;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    line-height: 1.5em;
+    border-bottom: 1px solid gray;
+}
+
+.sidebar li a:hover {
+    border-bottom: 1px solid red;
+}
+
+.designer-name {
+    display: inline;
+}
+
+.sidebar h3 {
+    padding-left: 70px;
+}
+
+footer {
+    width: 50%;
+    height: 60px;
+    background-color: rgba(246,247,146,0.9);
+    position: relative;
+    font-family: 'Economica', sans-serif;
+    font-size: 1.5em;
+    display:inline-block;
+    top: 550px;
+    left: -200px;
+    padding: 10px;
+    text-align: center;
+    transform: rotate(0deg)
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    transition: all .3s ease-out;
+    padding: 10px;
+}
+
+footer a:hover {
+    border-bottom: 1px solid red;
+}
