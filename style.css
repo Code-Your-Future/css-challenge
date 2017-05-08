@@ -1,1 +1,213 @@
 /*Add your styles below*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: #daede2;
+	padding: 5%;
+	display: block;
+}
+
+body {
+	font-size: 90%;
+	background: #77c4d3;
+	background-color: #77eff9;
+	color: #333;
+	font-family: sans-serif;
+	display: block;
+	font-size: 14px;
+	margin: 8px;
+}
+
+div.page-wrapper {
+	z-index: 2;
+}
+
+::selection {
+	background: #333;
+	color: #fff;
+}
+
+div, article, section, header, footer, nav, figure, li {
+	position: relative;
+}
+
+address, article, aside, div, footer, header, hgroup, layer, main, nav, section {
+	display: block;
+}
+
+section.intro {
+	width: 60%;
+	padding: 5%;
+}
+
+h1, section.intro div.summary p, div.requirements p:last-child {
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+h1 {
+	background-color: #f91509;
+	/*width: 300px;
+	height: 50px;*/
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+	font-family: sans-serif;
+	font-size: 24px;
+	display: inline-block;
+	margin-bottom: 16px;
+	padding: 8px 16px;
+}
+
+h2 {
+	display: block;
+	font-size: 130px;
+	font-weight: 900;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+h2, h3 {
+	font-family: sans-serif;
+}
+
+section.intro div.summary p a, div.explanation p a, div.participation p a {
+	color: #fff;
+}
+
+section.intro div.summary {
+	padding: 13% 0;
+	color: #fff;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+	display: block;
+	padding: 8px 0;
+}
+
+a {
+	border-bottom: 1px solid #000000;
+	color: #333;
+	text-decoration: none;
+	transition: border-color 0.2s ease-in-out;
+}
+
+a:any-link {
+	cursor: pointer;
+}
+
+section.intro div.preamble {
+	background: #ffffff;
+	color: #333;
+	margin-left: -30%;
+	padding: 5% 5% 5% 30%;
+}
+
+h3 {
+	font-size: 36px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	padding: 8px 0 4px 0;
+	display: block;
+}
+
+div.main {
+	padding: 5%;
+}
+
+div.explanation {
+	width: 50%;
+	padding: 5%;
+	float: left;
+	color: #fff;
+}
+
+div.participation {
+	width: 49%;
+	padding: 5%;
+	float: left;
+	background: #ea2e49;
+	color: #fff;
+}
+
+div.benefits {
+	width: 30%;
+	float: left;
+	background: #ffffff;
+	padding: 5%;
+	margin-top: 12%;
+}
+
+div.requirements {
+	width: 69%;
+	float: left;
+	background: #ffffff;
+	padding: 5%;
+}
+
+section.intro div.summary p:last-child, div.requirements p:last-child {
+	border-top: 1px solid #ea2e49;
+	margin-top: 16px;
+	padding-top: 24px;
+}
+
+aside.sidebar {
+	width: 32.75%;
+	position: absolute;
+	right: 0;
+	top: 2.5%;
+	background: #f6f792;
+	padding: 5%;
+}
+
+aside.sidebar ul {
+	padding: 8px 0 32px 0;
+}
+
+ul, menu, dir {
+	display: block;
+	list-style-type: disc;
+}
+
+li {
+	font-size: 16px;
+	font-weight: 400;
+	display: list-item;
+}
+
+aside.sidebar ul li {
+	color: #000000;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 13px 0;
+}
+
+footer {
+	width: 50%;
+	background: #f6f792;
+	clear: both;
+	color: #fff;
+	padding: 16px 5%;
+}
+
+footer a {
+	margin-right: 8px;
+}
+
+div.extra1 {
+background: #333333;
+bottom: 0;
+right: 0;
+position: fixed;
+top: 0;
+width: 30%;
+z-index: 1;
+}
