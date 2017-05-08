@@ -1,0 +1,216 @@
+/*Add your styles below*/
+
+html {
+	margin: 0px;
+	padding: 0px;
+	}
+
+body { 
+	background-color: #FFF;
+	font-family: sans-serif, serif;
+	line-height: 1; 
+	background-image: url("http://infoshutter.com/wp-content/uploads/2015/05/Background-images-nature-spring-hd-12.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom center; 
+	margin: 5px; 
+	padding: 1px;
+	}
+
+p { 
+	margin-top: 6px; 
+	text-align: center;
+	border: 1px solid #CCC;
+	padding: 10px 10%;
+	font-size: 19px;
+	font-weight: 20px;
+	}
+
+h3 { 
+	font: 1.2em georgia;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: rgb(160, 82, 45);
+	}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #0FF;
+	}
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+
+abbr {
+	border-bottom: none;
+	}
+
+.page-wrapper { 
+	padding: 0 140px 0 100px;  
+	margin: 2px; 
+	position: relative;
+	}
+
+.intro { 
+	min-width: 450px;
+	width: 100%;
+	}
+
+header h1 { 
+	background: transparent;
+	margin-top: 0px;
+	width: 250px;
+	height: 30px;
+	/*float: left;*/
+	text-indent: 0%;
+  	background: #D7263D;
+  	margin: auto;
+  	padding: 2px;
+  	text-transform:uppercase;
+  	text-align: center;
+  	clear: both;
+	}
+
+header h1:hover {
+	opacity: .5;
+  	transform: scale(0.5, 0.5);
+  	transition-duration: 5s;
+}
+
+header h2 { 
+	background: transparent; 
+	width: 100%; 
+	height: 5px; 
+	margin: auto;
+	padding: 25px 0px 0px 0px;
+	}
+
+header {
+	padding-top: 20px;
+	height: 87px;
+}
+
+.summary {
+	clear: both; 
+	margin: 10px 10px 10px 5px; 
+	float: left;
+	}
+
+.summary p {
+	font: italic 1em/2 georgia; 
+	text-align: center;
+	}
+
+.preamble {
+	clear: right; 
+	padding: 0px 10px 0 10px;
+	}
+
+.supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	}
+
+footer { 
+	text-align: center; 
+	}
+
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+  	background: #D7263D;
+  	border: 1px solid pink;
+  	border-radius: 3px;
+  	display: inline-block;
+  	margin: 10px 10px;
+    padding: 5px;
+    text-transform:uppercase;
+	}
+
+.sidebar {
+	margin-left: 50px; 
+	position: absolute; 
+	top: 0; 
+	right: 120px;
+	}
+
+.sidebar .wrapper { 
+	position: absolute;
+	font: 10px verdana, sans-serif; 
+	background: transparent; 
+	padding: 5px; 
+	margin-top: 130px; 
+	width: 110px; 
+	}
+
+.sidebar h3.select { 
+	background: transparent; 
+	margin: 10px 0 5px 0; 
+	width: 97px; 
+	height: 16px; 
+	text-indent: 0%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+.sidebar h3.archives { 
+	background: transparent; 
+	margin: 25px 0 5px 0; 
+	width:57px; 
+	height: 14px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+.sidebar h3.resources { 
+	background: transparent; 
+	margin: 25px 0 5px 0; 
+	width:63px; 
+	height: 10px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+
+.sidebar li {
+	line-height: 1.3em; 
+	background: transparent; 
+	display: block; 
+	padding-top: 10px; 
+	margin-bottom: 10px;
+	list-style-type: none;
+	}
+
+.sidebar li a:link {
+	color: rgb(0, 0, 255);
+	}
+
+.sidebar li a:visited {
+	color: #B3AE94;
+	}
+
+
+.extra1 {
+	background: transparent; 
+	position: absolute; 
+	top: 40px; 
+	right: 0; 
+	width: 148px; 
+	height: 110px;
+	}
