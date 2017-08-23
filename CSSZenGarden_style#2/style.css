@@ -1,0 +1,352 @@
+
+/*============general===================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+body{
+    font-family: 'Libre Baskerville', serif;
+    color: #325050;
+    font-size: 16px;
+}
+ h3{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 29px;
+    padding: 10px 0;   
+}
+ p{
+    line-height: 30px;
+    padding: 10px 0;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 100;
+}
+
+/*============introduction section===================*/
+#zen-intro header{
+    background-image: url(resource_for_style_2/gridlines.png), url("resource_for_style_2/contours-opaque.png"),url("resource_for_style_2/huntington.jpg");
+    background-position: left top;
+    background-repeat: repeat;
+    color: #fff;
+    padding: 70px 100px 100px 80px;
+}
+header h1:before{
+    content: "";
+    background: url(resource_for_style_2/enso.svg) no-repeat;
+    background-size: contain;
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+    float: left;
+    padding-right: 30px;
+}
+header h1{
+    font-size: 48px;
+    width: 70%;
+    padding: 10px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 100;
+}
+header h2{
+    font-size: 150%;
+    width: 70%;
+    padding: 10px;
+    font-weight: 100;
+    font-style: italic;
+    color: #B7C7C2;
+}
+#zen-summary,
+#zen-preamble,
+#zen-explanation,
+#zen-requirements p:not(:last-child){
+    color: #325050;
+    width: 66%;
+    padding: 30px 50px 0 100px;
+}
+#zen-requirements h3{
+     padding: 50px 50px 0 100px;
+}
+#zen-explanation p:last-child{
+    padding-bottom: 30px;
+}
+#zen-summary,
+#zen-preamble,
+#zen-explanation,
+#zen-requirements{
+    background: #fff;
+    height: 100%;
+}
+
+#zen-summary a{
+    text-decoration: none;
+    color: #809b7e;
+    text-transform: uppercase;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 10px;
+    font-weight: 100;
+}
+#zen-summary a:hover{
+    background: #3D8A9F;
+    color: #fff;
+}
+#zen-summary a:before{
+    content: "\f019";
+    font-family: FontAwesome;
+    color: #a9b995;
+    background: #d9e1cd;
+    padding: 3px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+/*============supporting section===================*/
+#zen-participation,
+#zen-benefits{
+    width: 100%;
+    padding: 30px 500px 0 100px;
+    background: #C3DBCD;
+    height: 100%;
+}
+#zen-benefits{
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+#zen-participation,
+#zen-benefits{
+    background: #C3DBCD;
+    background-image: url(resource_for_style_2/gridlines.png), url("resource_for_style_2/contours-opaque.png"), url(resource_for_style_2/bamboo.png);
+    background-attachment: fixed;
+}
+
+#zen-participation a,
+#zen-benefits a,
+#zen-requirements a{
+    color:#0d8ba1;
+}
+#zen-requirements{
+    width: 100%;
+}
+
+#zen-requirements p:last-child{
+    background: url(resource_for_style_2/contours@2x.png), url("resource_for_style_2/gridlines.png"), url("resource_for_style_2/noise.png"),url("resource_for_style_2/koi.jpg");
+    text-align: center;
+    font-style: italic;
+    color: #819B98;
+    font-size: 32px;
+    padding: 90px;
+    margin-top: 60px;
+    background-position: top left;
+    background-size: 60px auto, auto, auto, cover;
+    line-height: 70px;
+}
+#zen-requirements p:last-child a{
+    color: #D1DADC;
+    font-style: normal;
+}
+#zen-requirements p:last-child a:hover{
+    text-decoration: underline;
+}
+footer{
+    background: #134347;
+    padding: 70px;
+}
+footer a{
+    color: #134347;
+    margin: 40px 30px; 
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+footer a:first-child{
+    margin-left: 160px;
+}
+footer a:before {
+    border-radius: 100%;
+    font-family: FontAwesome;
+    color: #89A1A3;
+    font-size: 36px; 
+    font-weight: normal;
+    padding: 15px 18px;
+    border: 2px solid #89A1A3;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+ }
+footer a:first-child:before{
+    content: "\f13b";
+    padding: 15px 20px;
+}
+footer a:nth-child(2):before{
+    content: "\f13c";
+    padding: 15px 18px;
+}
+footer a:nth-child(3):before{
+    content: "cc";
+    font-family: inherit;
+    font-size: 28px;
+    letter-spacing: 5px;
+    padding: 16px 15px;
+    text-align: center;
+}
+footer a:nth-child(4):before{
+    content: "\f29b";
+    padding: 15px 18px;
+}
+footer a:nth-child(5):before{
+    content: "\f09b";
+    padding: 15px 18px;
+}
+footer a:hover:before{
+    background: #5A7C7F;
+    color: #134347;
+    border: none;
+    -webkit-animation-name: fadeIn; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fadeIn {
+    from {background-color: #134347;}
+    to {background-color: #5A7C7F;}
+}
+
+@keyframes fadeIn {
+    from {background-color: #134347;}
+    to {background-color: #5A7C7F;}
+}
+
+/*============aside/sidebar section===================*/
+aside.sidebar{
+    width: 34%;
+    position: absolute;
+    top: 290px;
+    right: 0px;
+}
+aside.wrapper{
+    position: relative;
+    width: 100%;
+}
+aside.sidebar ul{
+    list-style: none;
+    padding: 10px 30px;
+}
+aside.sidebar h3{
+    display: none;
+}
+#design-selection{
+    position: absolute;
+    background: #E5EDE8;
+    padding-bottom: 120px;
+    height: 955px;
+    overflow-y: hidden;
+    width: 100%;
+    z-index:0;
+}
+#design-selection ul li,
+#zen-resources ul li{
+    line-height: 30px;
+    color: #C0CAC3; 
+    font-style: italic;    
+    border-bottom: 1px solid #C0CAC3;
+    margin: 20px 100px 20px 50px;
+    padding-bottom: 20px;
+}
+#design-selection ul li:first-child,
+#zen-resources ul li:first-child{
+    padding-top: 30px;
+}
+#design-selection ul li:last-child{
+    border-bottom: none;
+}
+#zen-resources{
+    background: rgba(0,0,0,0.1);
+    position: absolute;
+    top: 955px;
+    height: 785px;
+    width: 100%;
+}
+#zen-resources ul li:first-child{
+    border-top: 1px solid #C0CAC3;
+    margin-top: 100px;
+}
+aside.sidebar li a{
+    color: #607476;
+    font-style: normal;
+    padding: 0;
+}
+aside.sidebar li a:hover{
+    color:#0d8ba1;
+}
+#zen-resources:after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    height: 862px;
+    background: #E5EDE8;
+    z-index: 3;
+}
+aside.sidebar a.design-name,
+#zen-resources{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 19px;
+    display: block;
+}
+
+aside.sidebar #design-archives{
+    position: absolute;
+    top: -310px;
+    width: 100%;
+    height: 310px;
+    padding: 16px;
+    background: rgba(0,0,0,0.1);
+}
+
+aside.sidebar #design-archives ul li{
+    padding: 90px 100px;
+    display: inline-block;
+}
+aside.sidebar #design-archives ul li a{
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 500;
+    font-family: 'Julius Sans One', sans-serif;
+    background: rgba(255,255,255,.1);
+    position: absolute;
+    top: 130px;  
+}
+aside.sidebar #design-archives ul li a:hover,
+aside.sidebar #design-archives ul li.next a:hover:after{
+    background: rgba(255,255,255,.2);
+}
+aside.sidebar #design-archives ul li.next a{
+    visibility: hidden;
+}
+aside.sidebar #design-archives ul li.next a{
+    padding-bottom: 5px;
+}
+aside.sidebar #design-archives ul li.next a:after{
+    content: "\f054";
+    font-family: FontAwesome;
+    font-size: 28px;
+    font-weight: normal;
+    position: absolute;
+    color: #FFF;
+    visibility: visible;
+    right: -33px;
+    top: 0px;
+    height: 100%;
+    padding: 15px 15px 0 15px;
+    background: rgba(255,255,255,.1);
+}
+aside.sidebar #design-archives ul li.viewall a{
+    left: 100px;
+}
+
